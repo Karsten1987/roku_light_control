@@ -1,10 +1,9 @@
 sub init()
   m.top.functionname = "request"
-  m.top.response = ""
 end sub
 
 function request()
-    url = m.top.url
+    url = m.top.url + "/toggle"
     http = createObject("roUrlTransfer")
     http.setUrl(url)
     http.PostFromString("a=a")

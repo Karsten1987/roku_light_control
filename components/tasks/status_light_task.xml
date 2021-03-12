@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="status_light_task" extends="task" >
+  <interface>
+    <field id="urls" type="stringarray" />
+    <field id="status" type="boolarray" />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/tasks/status_light_task.brs"/>
+</component>

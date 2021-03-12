@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="toggle_light_task" extends="task" >
+  <interface>
+    <field id="url" type="string" />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/tasks/toggle_light_task.brs"/>
+</component>

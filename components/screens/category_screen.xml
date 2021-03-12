@@ -12,10 +12,10 @@
       translation="[100, 200]"
       itemSize="[400,48]"
     >
-    <ContentNode id="categories" role="content" >
-      <category_node title="TV" feed_url="http://10.0.0.245/toggle"/>
-      <category_node title="COUCH" feed_url="http://10.0.0.97/toggle"/>
-    </ContentNode>
-  </CheckList>
+      <ContentNode id="categories" role="content">
+        <category_node title="TV" feed_url="http://10.0.0.245"/>
+        <category_node title="COUCH" feed_url="http://10.0.0.97"/>
+      </ContentNode>
+    </CheckList>
   </children>
 </component>
