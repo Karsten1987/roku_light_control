@@ -1,6 +1,3 @@
-
-
-
 sub main()
 	' Print information from Roku manifest
 	app_info = createObject("roAppInfo")
