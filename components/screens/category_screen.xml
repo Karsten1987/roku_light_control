@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="category_screen"
+  extends="Group"
+  >
+  <script type="text/brightscript" uri="pkg:/components/screens/category_screen.brs" />
+  <children>
+    <Label
+      translation="[75, 150]"
+        id="env"
+        font="font:LargeBoldSystemFont"
+        text="PICK A LIGHT:"/>
+    <RadioButtonList
+      id="category_list"
+      translation="[100, 200]"
+      itemSize="[400,48]"
+    >
+    <ContentNode id = "categories" role = "content" >
+      <category_node title = "TV" feed_url="http://10.0.0.245/LED"/>
+      <category_node title = "COUCH" feed_url="http://10.0.0.97/led"/>
+    </ContentNode>
+  </RadioButtonList>
+  </children>
+</component>
